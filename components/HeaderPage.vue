@@ -46,7 +46,7 @@
     </div>
 
     <!-- Menu secundário -->
-    <div class="h-[45px] container flex justify-between items-center bg-[#f7f7f7]">
+    <div class="mx-auto h-[45px] flex justify-between items-center bg-[#f7f7f7]">
       <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
         <div class="h-[45px] p-2 flex flex-col justify-center items-center">
           <div class="text-center text-black text-base font-bold font-['Montserrat'] hover:text-[#59bec1]">
@@ -122,132 +122,6 @@
       <span class="text-[#414042] text-lg font-normal font-['Roboto'] mr-[16px]">/</span>
       <a href="#" class="text-black text-base font-normal font-['Montserrat'] hover:underline">Homens</a>
     </div>
-
-    <div
-      class="bg-white w-[1920px] h-[869px] px-[31px] py-[30px] flex-col justify-start items-center gap-2.5 inline-flex">
-      <div class="h-[809px] relative bg-white rounded-[10px] shadow border border-[#ebebeb]">
-        <img class="w-[763px] h-[763px] left-[157px] top-[23px] absolute"
-          src="../assets/images/product/Rectangle63.svg" />
-        <div class="left-[21px] top-[23px] absolute flex-col justify-start items-start gap-4 inline-flex">
-          <img class="w-[116px] h-[114px]" src="../assets/images/product/Rectangle64.svg" />
-          <img class="w-[116px] h-[114px]" src="../assets/images/product/Rectangle65.svg" />
-          <img class="w-[116px] h-[113px]" src="../assets/images/product/Rectangle66.svg" />
-          <img class="w-[116px] h-[113px]" src="../assets/images/product/Rectangle67.svg" />
-          <img class="w-[116px] h-[114px]" src="../assets/images/product/Rectangle68.svg" />
-          <div class="w-[116px] h-[114px] relative">
-            <img class="w-[116px] h-[114px] left-0 top-0 absolute" src="../assets/images/product/Rectangle65.svg" />
-            <div class="w-[51px] h-[51px] left-[33px] top-[31px] absolute">
-              <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="25.5" cy="25.5" r="25.5" fill="white" />
-                <path
-                  d="M37.441 23.8808L27.3297 23.9125V13.6189C27.3297 12.722 26.6344 12 25.7707 12C24.9073 12 24.2118 12.722 24.2118 13.6189L24.2423 23.8811H14.559C13.6953 23.8811 13 24.6031 13 25.5C13 26.3966 13.6953 27.1186 14.559 27.1186H24.2271V37.3811C24.2271 38.2774 24.9223 39 25.786 39C26.6497 39 27.345 38.2774 27.345 37.3811V27.1189H37.441C38.3047 27.1189 39 26.3963 39 25.5C39 24.6028 38.2969 23.8808 37.441 23.8808Z"
-                  fill="#CACACA" />
-              </svg>
-
-            </div>
-          </div>
-        </div>
-        <div class="w-[50.95px] h-[51px] left-[850.08px] top-[43px] absolute">
-          <div class="w-[50.95px] h-[51px] left-0 top-0 absolute bg-white rounded-full"></div>
-        </div>
-        <div class="left-[973px] top-[109px] absolute flex-col justify-start items-start gap-6 inline-flex">
-          <div class="flex-col justify-start items-start gap-2 flex">
-            <div class="text-[#9c9c9c] text-sm font-normal font-['Montserrat'] leading-normal">Ref.: 00000000000</div>
-            <div class="text-black text-[44px] font-bold font-['Montserrat']">Óculos de sol | Dubay Emy</div>
-            <div class="justify-start items-center gap-[15px] inline-flex">
-              <div class="justify-start items-start gap-[5px] flex"></div>
-              <div class="text-black text-sm font-normal font-['Montserrat'] leading-none tracking-tight">342 avaliações
-              </div>
-            </div>
-          </div>
-          <div class="flex-col justify-start items-start gap-1 flex">
-            <div class="text-[#9c9c9c] text-base font-normal font-['Montserrat'] line-through">R$ 99,90</div>
-            <div class="text-black text-[40px] font-bold font-['Montserrat']">R$ 49,90</div>
-            <div class="text-[#9c9c9c] text-base font-normal font-['Montserrat']">no Pix, boleto ou cartão</div>
-          </div>
-          <div class="w-60 h-10 relative">
-            <div class="w-10 h-10 left-0 top-0 absolute">
-              <div class="w-10 h-10 left-0 top-0 absolute bg-white rounded-full border border-[#d6d6d6]"></div>
-              <div class="w-8 h-8 left-[4px] top-[4px] absolute bg-[#7b5823] rounded-full"></div>
-            </div>
-            <div class="w-10 h-10 left-[50px] top-0 absolute">
-              <div class="w-10 h-10 left-0 top-0 absolute bg-white rounded-full border border-[#d6d6d6]"></div>
-              <div class="w-8 h-8 left-[4px] top-[4px] absolute bg-[#512f2f] rounded-full"></div>
-            </div>
-            <div class="w-10 h-10 left-[100px] top-0 absolute">
-              <div class="w-10 h-10 left-0 top-0 absolute bg-white rounded-full border border-[#d6d6d6]"></div>
-              <div class="w-8 h-8 left-[4px] top-[4px] absolute bg-[#2f381b] rounded-full"></div>
-            </div>
-            <div class="w-10 h-10 left-[150px] top-0 absolute">
-              <div class="w-10 h-10 left-0 top-0 absolute bg-white rounded-full border border-[#d6d6d6]"></div>
-              <div class="w-8 h-8 left-[4px] top-[4px] absolute bg-[#1d1d1b] rounded-full"></div>
-            </div>
-            <div class="w-10 h-10 left-[200px] top-0 absolute">
-              <div class="w-10 h-10 left-0 top-0 absolute bg-white rounded-full border border-[#d6d6d6]"></div>
-              <div class="w-8 h-8 left-[4px] top-[4px] absolute bg-[#c9c9c9] rounded-full"></div>
-            </div>
-          </div>
-          <div class="justify-start items-start gap-6 inline-flex">
-            <div class="justify-start items-center gap-2 flex">
-              <div class="text-[#414042] text-sm font-normal font-['Montserrat']">Quantidade:</div>
-              <div class="w-[62px] h-[50px] relative">
-                <div class="w-[62px] h-[50px] left-0 top-0 absolute rounded-[5px] border border-[#a0a0a0]"></div>
-                <div class="w-[22px] h-[22px] left-[32px] top-[14px] absolute"></div>
-                <div class="left-[10px] top-[17px] absolute text-[#7a7a7a] text-sm font-normal font-['Montserrat']">1
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="justify-start items-center gap-6 inline-flex">
-            <div class="justify-start items-center gap-1.5 flex">
-              <div class="w-3 h-3 relative"></div>
-              <div class="text-black text-sm font-bold font-['Montserrat'] leading-none">Guia de Medidas</div>
-            </div>
-            <div class="justify-start items-center gap-1.5 flex">
-              <div class="text-black text-sm font-bold font-['Roboto'] leading-[14px]">Provador Virtual</div>
-            </div>
-            <div class="justify-start items-center gap-1.5 flex">
-              <div class="w-[21px] h-[19px] relative">
-                <div class="w-[18.67px] h-[16.89px] left-[1.17px] top-[1.06px] absolute">
-                </div>
-              </div>
-              <div class="text-black text-sm font-bold font-['Roboto'] leading-[14px]">Medidor DNP</div>
-            </div>
-          </div>
-          <div class="w-[484px] py-6 bg-[#138a00] rounded-[48px] justify-center items-center gap-2.5 inline-flex">
-            <div class="text-white text-base font-bold font-['Roboto'] uppercase leading-none">adicionar ao carrinho e
-              escolher lentes</div>
-          </div>
-          <div class="w-[497px] h-[74px] relative">
-            <div class="left-0 top-0 absolute text-black text-sm font-bold font-['Roboto']">Cálculo de frete</div>
-            <div class="h-[50px] left-0 top-[24px] absolute justify-start items-center gap-2 inline-flex">
-              <div class="text-[#414042] text-sm font-normal font-['Montserrat']">Digite seu CEP:</div>
-              <div class="w-44 h-[50px] relative">
-                <div class="w-[90px] h-[50px] left-0 top-0 absolute rounded-[5px] border border-[#a0a0a0]"></div>
-                <div class="w-[69px] h-[50px] left-[107px] top-0 absolute rounded-[5px] border border-[#a0a0a0]"></div>
-                <div class="left-[10px] top-[17px] absolute text-[#7a7a7a] text-sm font-normal font-['Montserrat']">
-                  00000</div>
-                <div class="left-[119px] top-[17px] absolute text-[#7a7a7a] text-sm font-normal font-['Montserrat']">000
-                </div>
-                <div class="left-[97px] top-[17px] absolute text-black text-sm font-normal font-['Roboto']">-</div>
-              </div>
-              <div class="w-[197px] h-[50px] py-6 bg-black rounded-[48px] justify-center items-center gap-2.5 flex">
-                <div class="text-white text-base font-bold font-['Montserrat'] uppercase leading-none">Calcular</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
 
 
   </header>
