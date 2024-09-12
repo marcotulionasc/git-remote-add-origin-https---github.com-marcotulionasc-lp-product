@@ -105,7 +105,7 @@
 
       <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
         <div class="h-[45px] p-2 flex flex-col justify-center items-center">
-          <div class="text-center text-black text-base font-bold font-['Montserrat'] hover:text-[#59bec1]">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
             Verão
           </div>
         </div>

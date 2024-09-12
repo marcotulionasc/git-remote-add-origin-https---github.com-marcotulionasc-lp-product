@@ -3,8 +3,6 @@
     <HighlightBar />
     <HeaderPage class="md:block hidden" /> <!-- Versão Desktop -->
     <!-- <HeaderMobile class="md:hidden"/> Versão Mobile -->
-    <Tutorial class="text-blue-600" />
-    <HeaderPage />
     <!-- <Tutorial class="text-blue-600" /> -->
     <Product />
   </div>
