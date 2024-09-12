@@ -1,30 +1,26 @@
 <template>
   <header class="w-full bg-black shadow-lg">
-    <div class="container mx-auto flex justify-between items-center py-4">
-      <!-- Logo -->
-      <div class="flex items-center">
 
+    <!-- Menu principal -->
+    <div class="container mx-auto flex justify-between items-center py-4">
+      <div class="flex items-center mx-20">
         <img src="../assets/images/Modo_de_isolamento.svg" alt="Logo" />
       </div>
 
-      <!-- Campo de busca -->
-      <div class="flex items-center bg-gray-700 rounded-lg w-2/5">
+      <div class="flex items-center bg-[#444444] w-[789px] h-[51px]">
         <span class="text-white px-4">
-          <!-- Ícone de lupa -->
           <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M22.741 21.4907L17.2104 15.9612C18.8134 14.0367 19.6128 11.5683 19.4422 9.06946C19.2716 6.57063 18.1442 4.23378 16.2945 2.54502C14.4448 0.856254 12.0153 -0.0543923 9.51126 0.00251513C7.00726 0.0594225 4.6216 1.0795 2.85055 2.85055C1.0795 4.6216 0.0594225 7.00726 0.00251513 9.51126C-0.0543923 12.0153 0.856254 14.4448 2.54502 16.2945C4.23378 18.1442 6.57063 19.2716 9.06946 19.4422C11.5683 19.6128 14.0367 18.8134 15.9612 17.2104L21.4907 22.741C21.5728 22.8231 21.6702 22.8883 21.7775 22.9327C21.8848 22.9771 21.9997 23 22.1159 23C22.232 23 22.3469 22.9771 22.4542 22.9327C22.5615 22.8883 22.6589 22.8231 22.741 22.741C22.8231 22.6589 22.8883 22.5615 22.9327 22.4542C22.9771 22.3469 23 22.232 23 22.1159C23 21.9997 22.9771 21.8848 22.9327 21.7775C22.8883 21.6702 22.8231 21.5728 22.741 21.4907ZM1.79173 9.74465C1.79173 8.17171 2.25816 6.63409 3.13204 5.32624C4.00592 4.01839 5.24799 2.99905 6.7012 2.39711C8.1544 1.79517 9.75347 1.63768 11.2962 1.94454C12.8389 2.25141 14.256 3.00885 15.3682 4.12108C16.4804 5.23332 17.2379 6.65039 17.5448 8.19311C17.8516 9.73582 17.6941 11.3349 17.0922 12.7881C16.4902 14.2413 15.4709 15.4834 14.163 16.3573C12.8552 17.2311 11.3176 17.6976 9.74465 17.6976C7.63612 17.6952 5.61462 16.8566 4.12367 15.3656C2.63271 13.8747 1.79407 11.8532 1.79173 9.74465Z"
               fill="white" />
           </svg>
-
         </span>
         <input type="text" placeholder="Encontre o produto que está procurando..."
-          class="bg-gray-700 text-white placeholder-white outline-none flex-grow py-2 px-4" />
-        <button class="bg-white text-black ml-4 px-4 py-2 rounded-lg">Pesquisar</button>
+          class="w-[789px] h-[51px] bg-[#444444]" />
+        <button class="w-[162px] h-[51px] bg-white">Pesquisar</button>
       </div>
 
-      <!-- Ícones à direita -->
-      <div class="flex space-x-6 text-white">
+      <div class="flex space-x-6 text-white mx-20">
         <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M18.8036 0C16.4067 0 14.3081 1.064 13 2.8625C11.6919 1.064 9.5933 0 7.19643 0C5.28848 0.00221995 3.45929 0.785612 2.11016 2.17831C0.761034 3.571 0.0021505 5.45927 0 7.42883C0 15.8162 12.0471 22.6052 12.5601 22.8856C12.6953 22.9607 12.8465 23 13 23C13.1535 23 13.3047 22.9607 13.4399 22.8856C13.9529 22.6052 26 15.8162 26 7.42883C25.9978 5.45927 25.239 3.571 23.8898 2.17831C22.5407 0.785612 20.7115 0.00221995 18.8036 0ZM13 20.9445C10.8805 19.6696 1.85714 13.862 1.85714 7.42883C1.85899 5.96762 2.42211 4.5668 3.42302 3.53356C4.42393 2.50033 5.78093 1.91902 7.19643 1.91712C9.45402 1.91712 11.3495 3.15845 12.1411 5.15226C12.211 5.32807 12.33 5.47844 12.483 5.58427C12.6359 5.69009 12.8159 5.74659 13 5.74659C13.1841 5.74659 13.3641 5.69009 13.517 5.58427C13.67 5.47844 13.789 5.32807 13.8589 5.15226C14.6505 3.15486 16.546 1.91712 18.8036 1.91712C20.2191 1.91902 21.5761 2.50033 22.577 3.53356C23.5779 4.5668 24.141 5.96762 24.1429 7.42883C24.1429 13.8524 15.1171 19.6684 13 20.9445Z"
@@ -46,10 +42,86 @@
             d="M22.1538 5.52H17.5385C17.5385 4.05601 16.9549 2.65197 15.9163 1.61677C14.8776 0.58157 13.4689 0 12 0C10.5311 0 9.12238 0.58157 8.08372 1.61677C7.04505 2.65197 6.46154 4.05601 6.46154 5.52H1.84615C1.35652 5.52 0.886947 5.71386 0.540726 6.05892C0.194505 6.40399 0 6.872 0 7.36V21.16C0 21.648 0.194505 22.116 0.540726 22.4611C0.886947 22.8061 1.35652 23 1.84615 23H22.1538C22.6435 23 23.1131 22.8061 23.4593 22.4611C23.8055 22.116 24 21.648 24 21.16V7.36C24 6.872 23.8055 6.40399 23.4593 6.05892C23.1131 5.71386 22.6435 5.52 22.1538 5.52ZM12 1.84C12.9793 1.84 13.9184 2.22771 14.6109 2.91785C15.3033 3.60798 15.6923 4.544 15.6923 5.52H8.30769C8.30769 4.544 8.6967 3.60798 9.38914 2.91785C10.0816 2.22771 11.0207 1.84 12 1.84ZM22.1538 21.16H1.84615V7.36H6.46154V9.2C6.46154 9.444 6.55879 9.67801 6.7319 9.85054C6.90501 10.0231 7.1398 10.12 7.38462 10.12C7.62943 10.12 7.86422 10.0231 8.03733 9.85054C8.21044 9.67801 8.30769 9.444 8.30769 9.2V7.36H15.6923V9.2C15.6923 9.444 15.7896 9.67801 15.9627 9.85054C16.1358 10.0231 16.3706 10.12 16.6154 10.12C16.8602 10.12 17.095 10.0231 17.2681 9.85054C17.4412 9.67801 17.5385 9.444 17.5385 9.2V7.36H22.1538V21.16Z"
             fill="white" />
         </svg>
-
-
       </div>
     </div>
+
+    <!-- Menu secundário -->
+    <div class="h-[45px] container flex justify-between items-center bg-[#f7f7f7]">
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-bold font-['Montserrat'] hover:text-[#59bec1]">
+            Top 5 mais vendidos
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
+            Lançamentos
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
+            Óculos de sol
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
+            Óculos de grau
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
+            Lentes de contato
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
+            Lentes para óculos
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-['Montserrat'] hover:text-[#59bec1]">
+            Marcas
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="mx-auto menu-item hover:bg-black transition-all duration-300 ease-in-out">
+        <div class="h-[45px] p-2 flex flex-col justify-center items-center">
+          <div class="text-center text-black text-base font-bold font-['Montserrat'] hover:text-[#59bec1]">
+            Verão
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Path do produto -->
+    <div class="w-[1920px] h-[50px] bg-[#ebebeb]"></div>
+
+
+
+
+
+
+
+
   </header>
 </template>
 

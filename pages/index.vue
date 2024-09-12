@@ -1,7 +1,8 @@
 <template>
   <div>
     <HighlightBar />
-    <HeaderPage />
+    <HeaderPage class="md:block hidden" /> <!-- Versão Desktop -->
+    <!-- <HeaderMobile class="md:hidden"/> Versão Mobile -->
     <Tutorial class="text-blue-600" />
   </div>
 </template>
