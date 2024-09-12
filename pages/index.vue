@@ -9,7 +9,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import HighlightBar from '~/components/HighlightBar.vue'
-import Header from '~/components/HeaderPage.vue'
+import HeaderPage from '~/components/HeaderPage.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
