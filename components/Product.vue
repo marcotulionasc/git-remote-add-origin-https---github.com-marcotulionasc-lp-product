@@ -7,13 +7,18 @@
 </template>
 
 <script setup>
-import img1 from '~/assets/images/product/Rectangle64.png'
-import img2 from '~/assets/images/product/Rectangle65.png'
-import img3 from '~/assets/images/product/Rectangle66.png'
-import img4 from '~/assets/images/product/Rectangle67.png'
-import img5 from '~/assets/images/product/Rectangle68.png'
+import img0 from '~/assets/images/product/Rectangle63.svg'
+import img1 from '~/assets/images/product/Rectangle64.svg'
+import img2 from '~/assets/images/product/Rectangle65.svg'
+import img3 from '~/assets/images/product/Rectangle66.svg'
+import img4 from '~/assets/images/product/Rectangle67.svg'
+import img5 from '~/assets/images/product/Rectangle68.svg'
+import img6 from '~/assets/images/product/Rectangle69.svg'
 
 const images = [
+  {
+    src: img0,
+  },
   {
     src: img1,
   },
@@ -29,5 +34,8 @@ const images = [
   {
     src: img5,
   },
+  {
+    src: img6,
+  }
 ]
 </script>
