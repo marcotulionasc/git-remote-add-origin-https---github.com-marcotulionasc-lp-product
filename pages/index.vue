@@ -1,6 +1,7 @@
 <template>
   <div>
     <HighlightBar />
+    <HeaderPage />
     <Tutorial class="text-blue-600" />
   </div>
 </template>
@@ -8,11 +9,12 @@
 <script lang="ts">
 import Vue from 'vue'
 import HighlightBar from '~/components/HighlightBar.vue'
+import Header from '~/components/HeaderPage.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
   components: {
-    HighlightBar,
+    HighlightBar, HeaderPage
   },
 })
 </script>
