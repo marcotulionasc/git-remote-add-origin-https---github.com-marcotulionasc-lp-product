@@ -4,7 +4,7 @@
     <HeaderPage class="md:block hidden" /> <!-- Versão Desktop -->
     <!-- <HeaderMobile class="md:hidden"/> Versão Mobile -->
     <!-- <Tutorial class="text-blue-600" /> -->
-    <Product />
+    <!-- <Product /> -->
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default Vue.extend({
   components: {
     HighlightBar,
     HeaderPage,
-    Product,
+    //Product,
   },
 })
 </script>
