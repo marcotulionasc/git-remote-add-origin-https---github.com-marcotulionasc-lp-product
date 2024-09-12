@@ -113,14 +113,17 @@
     </div>
 
     <!-- Caminho do produto -->
-    
-    <div class="w-full h-[50px] bg-[#ebebeb] flex items-center space-x-2 px-4">
-      <a href="#" class="text-black text-base font-normal font-['Montserrat'] underline hover:no-underline">Home</a>
-      <span class="text-[#414042] text-lg font-normal font-['Roboto']">/</span>
-      <a href="#" class="text-black text-base font-normal font-['Montserrat'] hover:underline">Óculos de Sol</a>
-      <span class="text-[#414042] text-lg font-normal font-['Roboto']">/</span>
+    <div class="mx-auto pl-12 w-full h-[50px] bg-[#ebebeb] flex items-center">
+      <a href="#"
+        class="text-black text-base font-normal font-['Montserrat'] underline hover:no-underline mr-[16px]">Home</a>
+      <span class="text-[#414042] text-lg font-normal font-['Roboto'] mr-[16px]">/</span>
+      <a href="#" class="text-black text-base font-normal font-['Montserrat'] hover:underline mr-[16px]">Óculos de
+        Sol</a>
+      <span class="text-[#414042] text-lg font-normal font-['Roboto'] mr-[16px]">/</span>
       <a href="#" class="text-black text-base font-normal font-['Montserrat'] hover:underline">Homens</a>
     </div>
+
+
 
 
 
