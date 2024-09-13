@@ -4,7 +4,7 @@
     <!-- Menu principal -->
     <div class="container mx-auto flex justify-between items-center py-4">
       <div class="flex items-center mx-20">
-        <img src="../assets/images/Modo_de_isolamento.svg" alt="Logo" />
+        <img src="../../assets/images/Modo_de_isolamento.svg" alt="Logo" />
       </div>
 
       <div class="flex items-center bg-[#444444] w-[789px] h-[51px]">

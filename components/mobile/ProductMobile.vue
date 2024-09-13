@@ -1,14 +1,14 @@
 <template>
   <div class="mx-8 my-8 h-[809px] relative bg-white rounded-[10px] shadow border border-[#ebebeb]">
-    <img class="w-[763px] h-[763px] left-[157px] top-[23px] absolute" src="../assets/images/product/Rectangle63.svg" />
+    <img class="w-[763px] h-[763px] left-[157px] top-[23px] absolute" src="../../assets/images/product/Rectangle63.svg" />
     <div class="left-[21px] top-[23px] absolute flex-col justify-start items-start gap-4 inline-flex">
-      <img class="w-[116px] h-[114px]" src="../assets/images/product/Rectangle64.svg" />
-      <img class="w-[116px] h-[114px]" src="../assets/images/product/Rectangle65.svg" />
-      <img class="w-[116px] h-[113px]" src="../assets/images/product/Rectangle66.svg" />
-      <img class="w-[116px] h-[113px]" src="../assets/images/product/Rectangle67.svg" />
-      <img class="w-[116px] h-[114px]" src="../assets/images/product/Rectangle68.svg" />
+      <img class="w-[116px] h-[114px]" src="../../assets/images/product/Rectangle64.svg" />
+      <img class="w-[116px] h-[114px]" src="../../assets/images/product/Rectangle65.svg" />
+      <img class="w-[116px] h-[113px]" src="../../assets/images/product/Rectangle66.svg" />
+      <img class="w-[116px] h-[113px]" src="../../assets/images/product/Rectangle67.svg" />
+      <img class="w-[116px] h-[114px]" src="../../assets/images/product/Rectangle68.svg" />
       <div class="w-[116px] h-[114px] relative">
-        <img class="w-[116px] h-[114px] left-0 top-0 absolute" src="../assets/images/product/Rectangle69.svg" />
+        <img class="w-[116px] h-[114px] left-0 top-0 absolute" src="../../assets/images/product/Rectangle69.svg" />
         <div class="w-[51px] h-[51px] left-[33px] top-[31px] absolute">
           <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="25.5" cy="25.5" r="25.5" fill="white" />

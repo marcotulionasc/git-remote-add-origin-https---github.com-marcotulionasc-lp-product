@@ -11,10 +11,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import HighlightBar from '~/components/HighlightBar.vue'
-import HeaderPage from '~/components/HeaderPage.vue'
-import Product from '~/components/Product.vue'
-import TechnicalSheet from '~/components/TechnicalSheet.vue'
+import HighlightBar from '~/components/desktop/HighlightBarDesktop.vue'
+import HeaderPage from '~/components/desktop/HeaderPageDesktop.vue'
+import Product from '~/components/desktop/ProductDesktop.vue'
+import TechnicalSheet from '~/components/desktop/TechnicalSheetDesktop.vue'
+
+
+
 
 export default Vue.extend({
   name: 'IndexPage',
@@ -22,6 +25,7 @@ export default Vue.extend({
     HighlightBar,
     HeaderPage,
     Product,
+    TechnicalSheet,
   },
 })
 </script>
