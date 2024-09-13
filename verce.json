@@ -1,0 +1,10 @@
+{
+    "builds": [
+      { "src": "nuxt.config.js", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/.*", "status": 404, "dest": "404.html" }
+    ]
+  }
+  
