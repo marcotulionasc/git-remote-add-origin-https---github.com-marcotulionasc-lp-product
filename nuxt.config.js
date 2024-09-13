@@ -36,7 +36,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    // Ensure output directory is explicitly set to 'dist'
-    buildDir: 'dist',
+    analyze: {
+      analyzerMode: 'static',
+    }
   },
 }
