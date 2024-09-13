@@ -3,7 +3,8 @@
     <HighlightBarDesktop class="md:block hidden"/> <!-- Versão Desktop -->
     <HighlightBarMobile class="md:hidden"/> <!-- Versão Mobile -->
     <HeaderPageDesktop class="md:block hidden" /> <!-- Versão Desktop -->
-    <HeaderMobile class="md:hidden"/> <!-- Versão Mobile -->   
+    <HeaderPageMobile class="md:hidden"/>
+    <PathProductMobile class="md:hidden"/> <!-- Versão Mobile -->   
     <ProductDesktop class="md:block hidden"/> <!-- Versão Desktop -->
     <ProductMobile class="md:hidden"/> <!-- Versão Mobile -->
     <TechnicalSheetDesktop class="md:block hidden"/> <!-- Versão Desktop -->
@@ -28,15 +29,16 @@ import HighlightBarMobile from '~/components/mobile/HighlightBarMobile.vue'
 import HeaderPageMobile from '~/components/mobile/HeaderPageMobile.vue'
 import ProductMobile from '~/components/mobile/ProductMobile.vue'
 import TechnicalSheetMobile from '~/components/mobile/TechnicalSheetMobile.vue'
+import PathProductMobile from '~/components/mobile/PathProductMobile.vue'
 
 
 
 export default Vue.extend({
   name: 'IndexPage',
   components: {
-    HighlightBarDesktop,
-    HeaderPageDesktop,
-    ProductDesktop,
+    HighlightBarDesktop, HighlightBarMobile,
+    HeaderPageDesktop, HeaderPageMobile, PathProductMobile,
+    ProductDesktop, ProductMobile,
     TechnicalSheetDesktop,
   },
 })
